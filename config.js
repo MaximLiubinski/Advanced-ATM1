@@ -1,9 +1,9 @@
 exports.config = {
     framework: 'custom',
     frameworkPath: require.resolve('protractor-cucumber-framework'),
-
+    baseUrl: 'https://web.demo.reportportal.io/ui/',
     specs: [
-        'path/to/feature/files/**/*.feature' // accepts a glob
+        'feature/**/*.feature' // accepts a glob
     ],
 
     cucumberOpts: {
