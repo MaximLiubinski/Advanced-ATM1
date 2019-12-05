@@ -1,0 +1,12 @@
+{
+  "Left Block": {
+    "css": "div.left-block"
+  },
+  "Right Block":{
+    "css": "div.right-block",
+    "Welcome":{"css": "div:not(.header-mobile)>span.welcome-msg"},
+    "Login": {"css": "input[placeholder=\"Login\"]"},
+    "Password": {"css": "input.password-field"},
+    "Login Button": {"css": "button.rp-btn-login"}
+  }
+}
